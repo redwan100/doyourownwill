@@ -14,7 +14,7 @@ const Navbar = () => {
         <div>
           <ul className="flex items-center divide-x-2 divide-gray-100 *:text-neutral-600 *:text-[14px] hover:*:bg-gray-100 *:py-[.7rem] *:px-4">
             <li className="">
-              <Link href="/about">FAQs</Link>
+              <Link href="/faq">FAQs</Link>
             </li>
             <li>
               <Link href="#">Blog</Link>
