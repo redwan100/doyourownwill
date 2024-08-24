@@ -13,7 +13,7 @@ const FaqBox = ({ title, desc }: { title: string; desc: string }) => {
 };
 const FAQPage = () => {
   return (
-    <div>
+    <>
       <div>
         <h2 className="text-2xl font-bold mb-5">FAQs</h2>
         <div className="space-y-5">
@@ -310,7 +310,7 @@ const FAQPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
