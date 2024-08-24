@@ -25,7 +25,7 @@ const menus = [
     items: [
       {
         label: "Do I Need a Will?",
-        href: "/needwill",
+        href: "/need-will",
       },
       {
         label: "Can I Do it Myself?",
