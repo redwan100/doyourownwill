@@ -20,7 +20,7 @@ const Navbar = () => {
               <Link href="/blog">Blog</Link>
             </li>
             <li>
-              <Link href="#">About/Contact Us</Link>
+              <Link href="/about-contact-us">About/Contact Us</Link>
             </li>
             <li className="bg-[#337AB7] text-[white_!important] hover:bg-[#337AB7_!important]">
               <Link href="#">Planning Guide</Link>

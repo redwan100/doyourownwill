@@ -6,6 +6,7 @@ const BlogPage = () => {
   return (
     <div>
       <div className="space-y-4">
+        <h1 className="text-2xl font-bold">Blog Articles</h1>
         {blogs.map((blog) => (
           <div
             key={blog.title}
@@ -86,6 +87,12 @@ const BlogPage = () => {
             flow over the years, Sinatra maintained significant fame and
             popularity over a period of more than 5 decades.
           </p>
+        </div>
+
+        <div className="divide-x divide-neutral-500">
+          <button className="px-2">Page 1</button>
+          <button className="px-2 text-red-600 underline">Page 2</button>
+          <button className="px-2 text-red-600 underline">Page 3</button>
         </div>
       </div>
     </div>
