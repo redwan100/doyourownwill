@@ -33,7 +33,7 @@ const menus = [
       },
       {
         label: "How this Site Works",
-        href: "/sidework",
+        href: "/howthissiteworks",
       },
       {
         label: "Legal Information",
