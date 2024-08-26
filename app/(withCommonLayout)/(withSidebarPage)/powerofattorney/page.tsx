@@ -213,7 +213,7 @@ const PowerOfAttorneyPage = () => {
               <h4 className="relative font-bold">
                 <BsCheckCircleFill
                   color="red"
-                  className="absolute top-1 -left-8 text-lg"
+                  className="absolute top-1 -left-[2.1rem] text-lg"
                 />
                 {list.title}
               </h4>

@@ -7,7 +7,7 @@ const layout = ({ children }: { children: ReactNode }) => {
       <div className="hidden md:block">
         <SidebarPage />
       </div>
-      <div className="p-4">{children}</div>
+      <div className="px-4 md:px-0 py-4 w-full">{children}</div>
     </div>
   );
 };

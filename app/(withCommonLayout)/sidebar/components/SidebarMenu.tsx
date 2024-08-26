@@ -69,7 +69,7 @@ const menus = [
         href: "/freelegalforms",
       },
       {
-        label: "Free Legal Forms",
+        label: "Famous Wills",
         href: "/famouswills",
       },
     ],
