@@ -1,11 +1,11 @@
 const CreateDocumentForm = ({ title }: { title: string }) => {
   return (
-    <div className="rounded-md border border-stone-300 overflow-hidden">
-      <p className="bg-red-700 text-center py-2 font-semibold text-white">
+    <div className="rounded-md border border-stone-300 overflow-hidden w-full">
+      <p className="bg-red-700 text-center py-2 font-semibold text-white px-3">
         {title}
       </p>
-      <div className="p-2">
-        <form className="">
+      <div className="p-2 w-full">
+        <form className="w-full">
           <div className="mb-4 w-full flex flex-col sm:flex-row items-center gap-1">
             <select
               name="documentType"

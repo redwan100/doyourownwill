@@ -41,7 +41,7 @@ const menus = [
       },
       {
         label: "Will Requirements",
-        href: "/willrequirments",
+        href: "/willrequirements",
       },
       {
         label: "Naming Guardians",
