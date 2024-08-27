@@ -9,7 +9,7 @@ const BlogPage = () => {
         <h1 className="text-2xl font-bold">Blog Articles</h1>
         {blogs.map((blog) => (
           <div
-            key={blog.title}
+            key={blog.id}
             className={`relative border border-gray-300 rounded-sm p-6 space-y-4 ${
               blog.img && "pr-[6rem]"
             }`}

@@ -207,7 +207,7 @@ const PowerOfAttorneyPage = () => {
       </div>
 
       <div className="my-8 relative">
-        <ul className="pl-10 space-y-10 before:'' before:w-[3px] before:h-[32rem] before:bg-gray-100 before:absolute before:left-[14px] before:top-2  after:'' after:w-4 after:h-4 after:bg-white  after:border-gray-200 after:absolute after:left-[8px] after:-bottom-[4rem] after:rounded-full after:border-[3px]">
+        <ul className="pl-10 space-y-10 before:'' before:w-[3px] before:h-[32rem] sm:before:h-[35rem] before:bg-gray-100 before:absolute before:left-[14px] before:top-2  after:'' after:w-4 after:h-4 after:bg-white  after:border-gray-200 after:absolute after:left-[8px] after:-bottom-[4rem] after:rounded-full after:border-[3px]">
           {lists.map((list) => (
             <li key={list.title} className="space-y-2">
               <h4 className="relative font-bold">

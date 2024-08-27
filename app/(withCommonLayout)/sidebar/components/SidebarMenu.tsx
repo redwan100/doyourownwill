@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect } from "react";
 
 const menus = [
   {
@@ -76,19 +77,20 @@ const menus = [
   },
 ];
 
-const SidebarMenu = () => {
+const SidebarMenu = ({ pathname }: { pathname: string }) => {
+  useEffect(() => {
+    console.log({ pathname });
+  }, [pathname]);
+
   return (
     <>
-      <div className="pl-4 py-4">
+      <div className="pl-4 py-4 w-full">
         {menus.map((menu, index) => (
-          <div key={index}>
+          <div key={index} className="w-full">
             <h3 className="text-[18px] font-bold mb-3">{menu.title}</h3>
             <ul className="pl-3 mb-5 w-max">
               {menu.items.map((item, index) => (
-                <li
-                  key={index}
-                  className="text-[18px] hover:bg-[#f6f6f6] py-3 px-2"
-                >
+                <li key={index} className="hover:bg-[#f6f6f6] py-2 px-2">
                   <Link href={item.href}>
                     <p>{item.label}</p>
                   </Link>

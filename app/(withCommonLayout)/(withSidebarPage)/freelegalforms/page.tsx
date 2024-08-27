@@ -46,7 +46,7 @@ const lists = [
 
 const FreeLegalForms = () => {
   return (
-    <div className="w-full my-8 py-16">
+    <div className="w-full pb-16">
       <SidebarPageTitle title="Free Legal Forms" />
       <div className="flex gap-3 items-center justify-between w-full">
         <div className="mt-4 space-y-2 w-full">
