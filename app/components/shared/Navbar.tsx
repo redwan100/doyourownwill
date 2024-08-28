@@ -8,7 +8,6 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const pathname = usePathname();
   const isActive = (path: string) => pathname === path;
-  console.log(isActive("/fag"));
 
   return (
     <div className="w-full border-b border-b-neutral-200 sticky top-0 left-0 py-8 z-50 bg-white">

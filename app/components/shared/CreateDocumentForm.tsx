@@ -32,7 +32,14 @@ const CreateDocumentForm = ({ title }: { title: string }) => {
               </select>
 
               <button className="bg-red-700 hover:bg-red-800 transition-all py-2 rounded-md capitalize  px-3 text-white w-full text-lg flex-1">
-                create document
+                <a
+                  href="https://eforms.com/form/medical-power-of-attorney-form/?state=&utm_source=www.doyourownwill.com/&utm_medium=microsite&utm_campaign=DoYourOwnWill%20-%20Advance%20Directive&utm_content=widget&utm_term=https://www.doyourownwill.com/free-living-wills.html&eflow=e39322db03ec4da2ad16a3fba0c84712&eflow_affil=10&eflow_offer=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  create document
+                </a>
               </button>
             </div>
           </div>
