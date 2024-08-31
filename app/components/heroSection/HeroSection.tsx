@@ -13,21 +13,21 @@ const HeroSection = () => {
         </div>
         <div className="flex items-center gap-2 w-max mx-auto my-2 md:my-3 pt-4">
           <Link
-            href={"#"}
+            href={"/yourownmill"}
             className="bg-[#9D4241] text-white py-[.4rem] px-2 font-bold uppercase text-[14px] w-max md:flex items-center gap-1 hidden md:py-[.6rem] md:px-3"
           >
             {" "}
             start your will free <TiArrowForward className="text-xl" />
           </Link>
           <Link
-            href={"#"}
+            href={"/planningguide"}
             className="bg-[#3373AB] text-white py-[.4rem] px-2 font-bold uppercase text-[14px] w-max md:flex items-center gap-1 hidden md:py-[.6rem] md:px-3"
           >
             {" "}
             browse documents <TiArrowForward className="text-xl" />
           </Link>
           <Link
-            href={"#"}
+            href={"/planningguide"}
             className="bg-[#3373AB] text-white py-[.4rem] px-2 font-bold uppercase text-[14px] w-max flex items-center gap-1 md:hidden"
           >
             {" "}

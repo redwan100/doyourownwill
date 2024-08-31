@@ -5,7 +5,7 @@ import StatusForm from "./components/StatusForm";
 
 const YourOwnMilPage = () => {
   return (
-    <div>
+    <div className="max-w-[1040px] mx-auto w-full py-6">
       <div>
         <SidebarPageTitle title="Do Your Own Will" />
       </div>
@@ -28,7 +28,7 @@ const YourOwnMilPage = () => {
         </div>
       </div>
 
-      <div className="bg-[#3379B7] py-5 px-6 flex gap-3 justify-between items-center text-white text-xs">
+      <div className="bg-[#3379B7] py-5 px-6 flex gap-3 justify-between items-center text-white text-xs md:py-8 md:text-base">
         <p className="">
           Please select the options that best describes your status below:
         </p>

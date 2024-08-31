@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .btn-common {
+    @apply py-2 px-3 text-center text-[#337AB7] text-sm uppercase font-bold shadow-md w-max border border-gray-200 rounded-sm;
+  }
+}

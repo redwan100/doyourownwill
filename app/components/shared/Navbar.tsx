@@ -34,7 +34,7 @@ const Navbar = () => {
               <Link href="/planningguide">Planning Guide</Link>
             </li>
             <li className={`${isActive("/sign-in") && "bg-gray-100/80"}`}>
-              <Link href="#">Sign in</Link>
+              <Link href="/login">Sign in</Link>
             </li>
           </ul>
         </div>
