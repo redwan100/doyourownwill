@@ -1,3 +1,4 @@
+"use client";
 import { ReactNode } from "react";
 import Footer from "../components/shared/Footer";
 import Navbar from "../components/shared/Navbar";
@@ -6,7 +7,9 @@ const layout = ({ children }: { children: ReactNode }) => {
   return (
     <div>
       <Navbar />
-      <div>{children}</div>
+
+      <div className="w-full">{children}</div>
+
       <Footer />
     </div>
   );

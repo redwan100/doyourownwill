@@ -1,7 +1,10 @@
 "use client";
+import { FaCheck } from "react-icons/fa";
 
+import { MySidebarContext } from "@/app/Context/SidebarContext";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useContext } from "react";
 import { v4 as uuidv4 } from "uuid";
 const menus = [
   {
@@ -90,12 +93,33 @@ const menus = [
     ],
   },
 ];
+
 const SidebarPage = () => {
   const pathname = usePathname();
 
+  const context = useContext(MySidebarContext);
+  const handleSidebar = () => {
+    context?.setSidebarOpen(false);
+  };
   return (
-    <>
+    <div className="">
       <div className="pl-4 py-4 w-full">
+        <div className="my-8 space-y-8 md:hidden">
+          <Link
+            onClick={handleSidebar}
+            href={"/"}
+            className="bg-[#337AB7] grid place-items-center text-white py-2 px-3 w-max rounded-sm shadow shadow-[#337AB7]"
+          >
+            <FaCheck />
+          </Link>
+          <Link
+            onClick={handleSidebar}
+            href={"/planningguide"}
+            className="block hover:bg-[#f6f6f6] py-2 px-2 w-max"
+          >
+            Sign In
+          </Link>
+        </div>
         {menus.map((menu, index) => (
           <div key={menu.title} className="w-full">
             <h3 className="text-[18px] font-bold mb-3">{menu.title}</h3>
@@ -116,7 +140,7 @@ const SidebarPage = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
