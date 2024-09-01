@@ -114,7 +114,7 @@ const SidebarPage = () => {
           </Link>
           <Link
             onClick={handleSidebar}
-            href={"/planningguide"}
+            href={"/login"}
             className="block hover:bg-[#f6f6f6] py-2 px-2 w-max"
           >
             Sign In

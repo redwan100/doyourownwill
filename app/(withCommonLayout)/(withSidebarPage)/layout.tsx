@@ -14,8 +14,6 @@ const Layout = ({ children }: { children: ReactNode }) => {
     }
   }, [pathname]);
 
-  console.log(context?.sidebarOpen);
-
   return (
     <div className="w-full max-w-[1040px] mx-auto flex">
       <div

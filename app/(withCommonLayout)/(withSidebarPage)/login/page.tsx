@@ -40,13 +40,13 @@ const SignInPage = () => {
         </p>
       </div>
 
-      <div className="mt-5 w-full bg-blue-50 py-3 px-4">
+      <div className="mt-5 w-full bg-blue-50 py-3 px-4 flex flex-col gap-5 md:flex-row">
         <input
           type="email"
           placeholder="Email"
-          className="focus:outline-none border border-gray-300 py-2 px-2 max-w-[75%] w-full mr-5 invalid:border-red-600"
+          className="focus:outline-none border border-gray-300 py-2 px-2 max-w-[75%] w-full  invalid:border-red-600"
         />
-        <button className="py-1 px-2 bg-[#337AB7] uppercase text-white font-bold rounded-sm shadow-sm shadow-[#337AB7]">
+        <button className="py-1 px-2 bg-[#337AB7] uppercase text-white font-bold rounded-sm shadow-sm shadow-[#337AB7] w-max">
           sign in
         </button>
       </div>
