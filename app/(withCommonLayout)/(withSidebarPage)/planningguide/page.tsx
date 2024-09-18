@@ -91,8 +91,8 @@ const PlanningGuidePage = () => {
               </h4>
               <p className="text-pera text-xs sm:text-base">
                 A Power of Attorney is frequently used in the event of a
-                Principal's illness or disability or where the Principal cannot
-                be present to sign necessary legal documents.
+                Principal&apos;s illness or disability or where the Principal
+                cannot be present to sign necessary legal documents.
               </p>
               <div className="flex items-center justify-between gap-5">
                 <Link
@@ -194,8 +194,8 @@ const PlanningGuidePage = () => {
                 Funeral Planning Checklist
               </h4>
               <p className="text-pera text-xs sm:text-base">
-                Add additional funeral and/or memorial information that wasn't
-                stated in your Will.
+                Add additional funeral and/or memorial information that
+                wasn&apos;t stated in your Will.
               </p>
               <div className="flex items-center justify-between gap-5">
                 <Link

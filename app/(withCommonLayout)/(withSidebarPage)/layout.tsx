@@ -12,7 +12,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
     if (pathname === "/yourownmill") {
       context?.setSidebarOpen(false);
     }
-  }, [pathname]);
+  }, [pathname, context]);
 
   return (
     <div className="w-full max-w-[1040px] mx-auto flex">

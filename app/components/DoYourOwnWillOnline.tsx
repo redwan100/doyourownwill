@@ -1,7 +1,6 @@
+import img from "@/public/pictures/start-your-will.jpg";
 import Image from "next/image";
 import Link from "next/link";
-
-import img from "@/public/pictures/start-your-will.jpg";
 
 const DoYourOwnWillOnline = () => {
   return (
@@ -11,10 +10,10 @@ const DoYourOwnWillOnline = () => {
           Do Your Own Will Online
         </h2>
         <p className="text-[14px] leading-6 text-pera mb-3">
-          Although the end of your life is something you probably don't want to
-          dwell on, deciding what will happen to your assets and personal
-          possessions after your death is important. Preparing a Will is the
-          simplest way to ensure that your funds and property will be
+          Although the end of your life is something you probably don&apos;t
+          want to dwell on, deciding what will happen to your assets and
+          personal possessions after your death is important. Preparing a Will
+          is the simplest way to ensure that your funds and property will be
           distributed according to your wishes.
         </p>
         <p className="text-[14px] leading-6 text-pera mb-3">
@@ -23,7 +22,7 @@ const DoYourOwnWillOnline = () => {
           age of 18 who is of sound mind and memory.
         </p>
         <p className="text-[14px] leading-6 text-pera">
-          Writing a Will doesn't have to be complicated or expensive.{" "}
+          Writing a Will doesn&apos;t have to be complicated or expensive.{" "}
           <span className="font-bold">
             This site provides a free and simple way to compose your own legal
             Will online in a few easy steps:
@@ -53,8 +52,8 @@ const DoYourOwnWillOnline = () => {
           <Link href={"/"} className="text-red1 underline">
             FAQs
           </Link>{" "}
-          page for answers to additional questions. When you're ready to begin
-          drafting your Will, click the icon below to get started!
+          page for answers to additional questions. When you&apos;re ready to
+          begin drafting your Will, click the icon below to get started!
         </p>
       </div>
 

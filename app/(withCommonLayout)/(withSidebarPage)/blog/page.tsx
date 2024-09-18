@@ -76,7 +76,7 @@ const BlogPage = () => {
         <div className=" border border-gray-300 rounded-sm p-6 space-y-4">
           <h2 className="text-red-700 underline font-bold">
             {" "}
-            <Link href="#">Frank Sinatra's Will</Link>
+            <Link href="#">Frank Sinatra&apos;s Will</Link>
           </h2>
 
           <p className="text-pera">

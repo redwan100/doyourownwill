@@ -59,7 +59,7 @@ const FileDetails = () => {
             <div>
               <h3 className="font-bold mb-2">Durable Power of Attorney</h3>
               <p className="text-neutral-700 leading-5 text-sm ">
-                Appoint someone to communicate your decisions if you can't.
+                Appoint someone to communicate your decisions if you can&apos;t.
               </p>
 
               <Link

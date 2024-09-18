@@ -47,7 +47,7 @@ const WillRequirementsPage = () => {
               unable or unwilling to act
             </li>
             <li>Your signature</li>
-            <li>Witnesses' signatures</li>
+            <li>Witnesses&apos; signatures</li>
           </ul>
 
           <p className="text-sm text-pera sm:text-base">
@@ -68,9 +68,9 @@ const WillRequirementsPage = () => {
               witnesses.
             </li>
             <li>
-              They must watch you sign the will, though they don't need to read
-              it. Your witnesses must be people who will not inherit anything
-              under the will.
+              They must watch you sign the will, though they don&apos;t need to
+              read it. Your witnesses must be people who will not inherit
+              anything under the will.
             </li>
           </ul>
 

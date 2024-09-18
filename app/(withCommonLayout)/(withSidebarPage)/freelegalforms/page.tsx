@@ -130,8 +130,8 @@ const FreeLegalForms = () => {
                 Funeral Planning Checklist
               </h4>
               <p className="text-pera text-xs sm:text-base">
-                Add additional funeral and/or memorial information that wasn't
-                stated in your Will.
+                Add additional funeral and/or memorial information that
+                wasn&apos;t stated in your Will.
               </p>
               <div className="flex items-center justify-between gap-5">
                 <p>

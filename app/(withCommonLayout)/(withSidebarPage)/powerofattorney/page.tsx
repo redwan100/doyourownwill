@@ -50,13 +50,14 @@ const PowerOfAttorneyPage = () => {
           authority.
         </p>
         <p className="text-sm text-pera sm:text-base leading-6">
-          The Power of Attorney is frequently used in the event of a Principal's
-          illness or disability, or in legal transactions where the Principal
-          cannot be present to sign necessary legal documents. It can be either
-          for all purposes (known as "General") or for a specific purpose (known
-          as "Special" or "Limited"). Learn more on{" "}
+          The Power of Attorney is frequently used in the event of a
+          Principal&apos;s illness or disability, or in legal transactions where
+          the Principal cannot be present to sign necessary legal documents. It
+          can be either for all purposes (known as &quot;General&quot;) or for a
+          specific purpose (known as &quot;Special&quot; or
+          &quot;Limited&quot;). Learn more on{" "}
           <Link href={"#"} className="text-red-700 underline">
-            "General" vs "Special"
+            &quot;General&quot; vs &quot;Special&quot;
           </Link>
           .
         </p>

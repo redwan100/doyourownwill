@@ -33,8 +33,8 @@ const StepForm = () => {
           <div className="flex items-center justify-between">
             <p>
               Choose one of the options below that will instruct health care
-              providers in the event you become critically ill and can't speak
-              for yourself: (select only one)
+              providers in the event you become critically ill and can&apos;t
+              speak for yourself: (select only one)
             </p>
             <Image src={bed} alt="bed image" className="w-24" />
           </div>

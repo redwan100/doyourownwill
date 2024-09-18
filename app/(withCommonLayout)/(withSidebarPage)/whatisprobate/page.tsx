@@ -32,7 +32,8 @@ const WhatIsProbate = () => {
             <div className="border border-neutral-200 rounded-sm">
               <ul className="text-sm text-pera sm:text-base space-y-1 list-disc py-4 px-10">
                 <li>
-                  Identifying and inventorying the deceased person's property.
+                  Identifying and inventorying the deceased person&apos;s
+                  property.
                 </li>
                 <li>Accounting and appraisal of the property.</li>
                 <li>

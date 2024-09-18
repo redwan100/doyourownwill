@@ -19,10 +19,10 @@ const NamingExecutorPage = () => {
           </Link>
           , the court gives the executor authority to act as the testator or
           Will writer’s legal representative in administering the estate. The
-          executor's duties include collecting probate assets of the deceased,
-          paying valid debts (including any estate taxes), investing estate
-          funds, and ultimately distributing them to the beneficiaries in
-          accordance with the Will's terms.
+          executor&apos;s duties include collecting probate assets of the
+          deceased, paying valid debts (including any estate taxes), investing
+          estate funds, and ultimately distributing them to the beneficiaries in
+          accordance with the Will&apos;s terms.
         </p>
         <p className="text-sm text-pera sm:text-base">
           Your executor should be someone you consider highly trustworthy, with

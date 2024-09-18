@@ -160,7 +160,8 @@ const FAQPage = () => {
                   validity of the Will
                 </Link>
               </span>{" "}
-              after you die. This procedure makes the will "self-proving."
+              after you die. This procedure makes the will
+              &quot;self-proving&quot;
             </p>
             <p className="text-sm sm:text-base text-pera">
               Read more about the process of{" "}
@@ -249,12 +250,12 @@ const FAQPage = () => {
                 A Living Will can be general or very specific in specifying the
                 types of medical treatment you desire if you become
                 incapacitated. For example, typical language commonly utilized
-                in Living Wills is as follows: "If at any time (a) I am close to
-                death and life support would only postpone the moment of my
-                death; or (b) I am unconscious and it is very unlikely that I
-                will ever become conscious again; or (c) I have a progressive
-                illness that will be fatal and the illness is in an advanced
-                stage, and I am consistently and permanently unable to
+                in Living Wills is as follows: &quot;If at any time (a) I am
+                close to death and life support would only postpone the moment
+                of my death; or (b) I am unconscious and it is very unlikely
+                that I will ever become conscious again; or (c) I have a
+                progressive illness that will be fatal and the illness is in an
+                advanced stage, and I am consistently and permanently unable to
                 communicate, swallow food and water safely, care for myself and
                 recognize my family and other people, and it is very unlikely
                 that my condition will substantially improve; or (d) life
@@ -268,7 +269,7 @@ const FAQPage = () => {
                 without limitation, surgery, antibiotics, cardiac and pulmonary
                 resuscitation, and respiratory support. I expressly authorize
                 the withholding and withdrawal of artificially provided food,
-                water, and other nourishment and fluids."
+                water, and other nourishment and fluids.&quot;
               </p>
               <p className="text-sm sm:text-base text-pera">
                 A Living Will can also address whether you want to donate tissue
